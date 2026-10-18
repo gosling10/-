@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.create-task-block {
+    border: 1px solid #000000;
+    border-radius: 12px;
+    padding: 15px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.create-task-block h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.create-task-block label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.create-task-block input {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.controls-panel {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.controls-panel button, 
+.create-task-block button {
+    background-color: #efefef;
+    border: 1px solid #767676;
+    border-radius: 3px;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.controls-panel button:hover,
+.create-task-block button:hover {
+    background-color: #e5e5e5;
+}
+.controls-panel input {
+    padding: 3px 5px;
+    border: 1px solid #767676;
+    border-radius: 3px;
+    width: 200px;
+}
+.tasks-container {
+    background-color: #e8f8f7;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.task {
+    background-color: #f3f3fd;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 12px 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.task.immediate .vaznoe {
+    color: red;
+    font-weight: bold;
+    margin-left: 8px;
+}
